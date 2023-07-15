@@ -11,9 +11,9 @@ def build_URL(job_title, work_arrangement, location):
         case "on-site":
             work_arrangement_ = 1
         case "hybrid":
-            work_arrangement_ = 2
-        case "remote":
             work_arrangement_ = 3
+        case "remote":
+            work_arrangement_ = 2
         case _:
             work_arrangement_ = 1
     location_ = location.replace(" ", "&20")
